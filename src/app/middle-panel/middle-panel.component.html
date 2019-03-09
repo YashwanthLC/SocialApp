@@ -1,0 +1,13 @@
+<p>POSTS</p>
+<div *ngFor="let r of objDataMiddle; let i=index">
+  
+  <div *ngIf="r.category.type==0">
+    <app-image [objDataImg]="r"></app-image>
+  </div>
+  <div *ngIf="r.category.type==1">
+    <app-text [objDataTxt]="r"></app-text>
+  </div>
+  <div *ngIf="r.category.type==2">
+    <app-quest></app-quest>
+  </div>
+</div>

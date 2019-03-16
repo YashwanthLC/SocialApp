@@ -12,7 +12,6 @@ import { MiddlePanelComponent } from './middle-panel/middle-panel.component';
 import { ImageComponent } from './middle-panel/image/image.component';
 import { TextComponent } from './middle-panel/text/text.component';
 import { QuestComponent } from './middle-panel/quest/quest.component';
-import { BasemodelComponent } from './model/basemodel/basemodel.component';
 
 @NgModule({
   declarations: [
@@ -24,8 +23,7 @@ import { BasemodelComponent } from './model/basemodel/basemodel.component';
     MiddlePanelComponent,
     ImageComponent,
     TextComponent,
-    QuestComponent,
-    BasemodelComponent
+    QuestComponent
   ],
   imports: [
     BrowserModule,

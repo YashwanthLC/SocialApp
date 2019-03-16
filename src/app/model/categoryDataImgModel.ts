@@ -1,5 +1,5 @@
 import { locationDataModel } from './locationDataModel'
-export class categoryDataModel {
+export class categoryDataImgModel {
     public imageURL: string;
     public location: locationDataModel;
 

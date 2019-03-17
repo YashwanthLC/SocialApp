@@ -9,9 +9,9 @@ import { FooterComponent } from './footer/footer.component';
 import { LeftPanelComponent } from './left-panel/left-panel.component';
 import { RightPanelComponent } from './right-panel/right-panel.component';
 import { MiddlePanelComponent } from './middle-panel/middle-panel.component';
-import { ImageComponent } from './middle-panel/image/image.component';
-import { TextComponent } from './middle-panel/text/text.component';
-import { QuestComponent } from './middle-panel/quest/quest.component';
+import { ImageComponent } from './middle-panel/postcard/image/image.component';
+import { TextComponent } from './middle-panel/postcard/text/text.component';
+import { QuestComponent } from './middle-panel/postcard/quest/quest.component';
 import { PostcardComponent } from './middle-panel/postcard/postcard.component';
 import { CommentsComponent } from './middle-panel/postcard/comments/comments.component';
 

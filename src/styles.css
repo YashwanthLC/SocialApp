@@ -53,18 +53,20 @@ h1 {
   margin-bottom: 5px;
   font-family: 'Lobster', helvetica, arial;
 }
+
 h1 a {
-    text-decoration: none;
-    color: #666;
-    position: absolute;
-     
-    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
+  text-decoration: none;
+  color: #666;
+  position: absolute;
+
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), color-stop(50%, rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, 1)));
 }
- 
+
 h1:after {
-    color: #d6d6d6;
-    text-shadow: 0 1px 0 white;
+  color: #d6d6d6;
+  text-shadow: 0 1px 0 white;
 }
+
 .postInfo {
   display: block;
   /* Spans are inline element so needs to be changed to block in order for the margin to work */
@@ -236,7 +238,15 @@ ul.tabs li.active a {
   margin-top: 15px;
   margin-bottom: 10px;
 }
-
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(185, 91, 248);
+  color: white;
+  text-align: center;
+}
 .profileimage {
   float: left;
   margin-right: 5px;
@@ -248,22 +258,26 @@ div.ridge {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-  }
-  
-  li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color on hover */
-  li a:hover {
-    background-color: #ccc;
-    color: white;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #ccc;
+  color: white;
+}
+
+.tab {
+  margin-left: 40px;
+}

@@ -1,0 +1,9 @@
+<div *ngFor="let r of objComments; let i=index">
+  <a>Comments: </a>
+  {{ r.txtComment }}<br>
+
+  <div class="tab" *ngFor="let m of objComments[i].subComment; let j=index">
+    <a>Sub Comments: </a>
+    {{ m.txtComment }}
+  </div>
+</div>

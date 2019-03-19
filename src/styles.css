@@ -59,7 +59,7 @@ h1 a {
   color: #666;
   position: absolute;
 
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), color-stop(50%, rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, 1)));
+  /* -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), color-stop(50%, rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, 1))); */
 }
 
 h1:after {
@@ -255,6 +255,7 @@ ul.tabs li.active a {
 div.ridge {
   border-style: ridge;
   padding: 5px;
+  border: 1px solid rgb(61, 178, 208);
 }
 
 ul {
@@ -280,4 +281,13 @@ li a:hover {
 
 .tab {
   margin-left: 40px;
+}
+hr {
+  border-top: 1px solid blueviolet;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
 }

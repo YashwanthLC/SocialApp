@@ -14,6 +14,8 @@ import { TextComponent } from './middle-panel/postcard/text/text.component';
 import { QuestComponent } from './middle-panel/postcard/quest/quest.component';
 import { PostcardComponent } from './middle-panel/postcard/postcard.component';
 import { CommentsComponent } from './middle-panel/postcard/comments/comments.component';
+import { ProfileComponent } from './middle-panel/postcard/profile/profile.component';
+import { LikesComponent } from './middle-panel/postcard/likes/likes.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { CommentsComponent } from './middle-panel/postcard/comments/comments.com
     QuestComponent,
     PostcardComponent,
     CommentsComponent,
+    ProfileComponent,
+    LikesComponent,
   ],
   imports: [
     BrowserModule,

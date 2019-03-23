@@ -1,8 +1,11 @@
 <div class="col-md-12; ridge">
+  <div class="title">
+    {{ objDataPole.category.title }}
+  </div>
   <div style="text-align: justify">
     {{ objDataPole.category.ques }}<br>
-    <div *ngFor="let m of objDataPole.category.data; let i=index">      
-        <p class="tab">{{ m.id }}.) {{ m.text }}</p>   
+    <div *ngFor="let m of objDataPole.category.data; let i=index">
+      <p class="tab">{{ m.id }}.) {{ m.text }}</p>
     </div>
   </div>
 </div>

@@ -1,8 +1,10 @@
-
 <div class="col-md-12; ridge">
+  <div class="title">
+    {{ objDataImg.category.title }}
+  </div>
   <div>
     <img [src]="objDataImg.category.data.imgurl" width="100px" height="100px" /><br>
-    {{ objDataImg.category.data.location[0] }} - {{ objDataImg.category.data.location[1] }} 
+    {{ objDataImg.category.data.location[0] }} - {{ objDataImg.category.data.location[1] }}
   </div>
 </div>
 <br>

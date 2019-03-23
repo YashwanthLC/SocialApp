@@ -16,6 +16,10 @@ import { PostcardComponent } from './middle-panel/postcard/postcard.component';
 import { CommentsComponent } from './middle-panel/postcard/comments/comments.component';
 import { ProfileComponent } from './middle-panel/postcard/profile/profile.component';
 import { LikesComponent } from './middle-panel/postcard/likes/likes.component';
+import { UserComponent } from './user/user.component';
+import { SigninComponent } from './user/signin/signin.component';
+import { SignupComponent } from './user/signup/signup.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +36,10 @@ import { LikesComponent } from './middle-panel/postcard/likes/likes.component';
     CommentsComponent,
     ProfileComponent,
     LikesComponent,
+    UserComponent,
+    SigninComponent,
+    SignupComponent,
+    PostComponent,
   ],
   imports: [
     BrowserModule,

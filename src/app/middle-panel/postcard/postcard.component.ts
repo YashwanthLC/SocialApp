@@ -12,7 +12,7 @@ export class PostcardComponent implements OnInit {
       "id": "5c7b7d432c41054697a51d9b",
       "profilename": "Hill",
       "profilepic": "http://localhost:4200/assets/images/4.jpg",
-      "date": "2017-02-09T01:37:59 -06:-30",
+      "date": "2017-02-09 01:37:59",
       "like": {
         "count": 350,
         "data": [
@@ -35,6 +35,7 @@ export class PostcardComponent implements OnInit {
       },
       "category": {
         "type": 1,
+        "title": "Sample Text Content",
         "data": {
           "txtcontent": "Deserunt nisi quis aute do. Laboris do deserunt Lorem veniam commodo. Quis cupidatat qui voluptate ex occaecat aliquip dolore excepteur fugiat consectetur. Do ad magna tempor aliquip velit. Et reprehenderit adipisicing fugiat anim reprehenderit eu amet nulla consectetur proident dolore reprehenderit.\r\n"
         }
@@ -68,7 +69,7 @@ export class PostcardComponent implements OnInit {
       "id": "5c7b7d432c41054697a51d9b",
       "profilename": "Hill",
       "profilepic": "http://localhost:4200/assets/images/4.jpg",
-      "date": "2017-02-09T01:37:59 -06:-30",
+      "date": "2017-02-09 01:37:59",
       "like": {
         "count": 350,
         "data": [
@@ -91,6 +92,7 @@ export class PostcardComponent implements OnInit {
       },
       "category": {
         "type": 2,
+        "title": "Sample Question",
         "ques": "What is the formula for Sodium Chloride?.",
         "data": [{
           "id": 1,
@@ -142,7 +144,7 @@ export class PostcardComponent implements OnInit {
       "id": "5c7b7d43d4d7caf4bc280f96",
       "profilename": "Irma",
       "profilepic": "http://localhost:4200/assets/images/4.jpg",
-      "date": "2018-11-10T07:16:54 -06:-30",
+      "date": "2018-11-10 07:16:54",
       "like": {
         "count": 361,
         "data": [
@@ -165,6 +167,7 @@ export class PostcardComponent implements OnInit {
       },
       "category": {
         "type": 1,
+        "title": "Sample Text Content",
         "data": {
           "txtcontent": "Laborum eiusmod proident velit reprehenderit occaecat veniam non anim aliqua anim sint esse dolore. Occaecat commodo qui proident consequat. Reprehenderit velit adipisicing do ex ex. Elit esse est deserunt id deserunt.\r\n"
         }
@@ -193,7 +196,7 @@ export class PostcardComponent implements OnInit {
       "id": "5c7b7d43e901a155ff97c11f",
       "profilename": "Aileen",
       "profilepic": "http://localhost:4200/assets/images/3.jpg",
-      "date": "2017-08-08T04:09:22 -06:-30",
+      "date": "2017-08-08 04:09:22",
       "like": {
         "count": 350,
         "data": [
@@ -216,6 +219,7 @@ export class PostcardComponent implements OnInit {
       },
       "category": {
         "type": 1,
+        "title": "Sample Text Content",
         "data": {
           "txtcontent": "Officia sunt dolor culpa veniam dolore ad officia magna nisi est in exercitation excepteur dolore. Dolor cillum reprehenderit laborum voluptate irure ex est tempor exercitation Lorem. Officia pariatur elit deserunt sint voluptate esse cupidatat ea cupidatat proident tempor et culpa eu. Cupidatat irure commodo aliquip consequat non fugiat ullamco do id quis aute non. Velit sint ipsum laborum voluptate consequat culpa.\r\n"
         }
@@ -244,7 +248,7 @@ export class PostcardComponent implements OnInit {
       "id": "5c7b7da230514850bf51be6b",
       "profilename": "Villarreal",
       "profilepic": "http://localhost:4200/assets/images/4.jpg",
-      "date": "2014-04-24T09:11:32 -06:-30",
+      "date": "2014-04-24 09:11:32",
       "like": {
         "count": 150,
         "data": [
@@ -267,6 +271,7 @@ export class PostcardComponent implements OnInit {
       },
       "category": {
         "type": 0,
+        "title": "Sample Image Content",
         "data": {
           "imgurl": "http://localhost:4200/assets/images/3.jpg",
           "location": [
@@ -299,7 +304,7 @@ export class PostcardComponent implements OnInit {
       "id": "5c7b7da2498ea7fa790d599e",
       "profilename": "Marlene",
       "profilepic": "http://localhost:4200/assets/images/3.jpg",
-      "date": "2014-03-11T04:06:31 -06:-30",
+      "date": "2014-03-11 04:06:31",
       "like": {
         "count": 248,
         "data": [
@@ -322,6 +327,7 @@ export class PostcardComponent implements OnInit {
       },
       "category": {
         "type": 0,
+        "title": "Sample Image Content",
         "data": {
           "imgurl": "http://localhost:4200/assets/images/2.jpg",
           "location": [
@@ -354,7 +360,7 @@ export class PostcardComponent implements OnInit {
       "id": "5c7b7da2ea288b4ad8aae6e2",
       "profilename": "Lara",
       "profilepic": "http://localhost:4200/assets/images/1.jpg",
-      "date": "2018-09-25T12:18:13 -06:-30",
+      "date": "2018-09-25 12:18:13",
       "like": {
         "count": 302,
         "data": [
@@ -377,6 +383,7 @@ export class PostcardComponent implements OnInit {
       },
       "category": {
         "type": 0,
+        "title": "Sample Image Content",
         "data": {
           "imgurl": "http://localhost:4200/assets/images/5.jpg",
           "location": [

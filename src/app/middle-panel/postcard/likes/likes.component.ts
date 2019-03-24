@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
+
 @Component({
   selector: 'app-likes',
   templateUrl: './likes.component.html',
@@ -7,10 +8,15 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class LikesComponent implements OnInit {
   @Input() objLikes;
-
+  iLike: number = 0;
   constructor() { }
 
   ngOnInit() {
   }
+  
+  onAddLikes() {
+    this.iLike = this.iLike + 1;
+  }
+
 
 }

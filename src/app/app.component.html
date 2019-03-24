@@ -1,12 +1,18 @@
 <div class="wrapper">
-  <div class="col-md-12">
-    <app-header></app-header>
+  <div>
+    <a class="button button-link" href="./user/signin/">Sign In</a>
+    <a class="tab; button button-link" href="./user/signup/">Sign Up</a>
+  </div>
+  <div>
+    <div class="col-md-12">
+      <app-header></app-header>
+    </div>
   </div>
   <div>
     <div class="col-md-3">
-      <app-signin></app-signin>
-      <app-post></app-post>
-      <!-- <app-left-panel></app-left-panel> -->
+      <!-- <app-signin></app-signin>
+      <app-post></app-post> -->
+      <app-left-panel></app-left-panel>
       <!-- <button (click)="GetOutputData($event)">Click for Output</button> -->
     </div>
     <div class="col-md-6">
@@ -14,8 +20,8 @@
       </app-middle-panel>
     </div>
     <div class="col-md-3">
-      <app-signup></app-signup>
-      <!-- <app-right-panel></app-right-panel> -->
+      <!-- <app-signup></app-signup> -->
+      <app-right-panel></app-right-panel>
       <!-- {{ myOutput }} -->
     </div>
   </div>

@@ -1,6 +1,7 @@
 <div>
   <a>Likes: </a>
-  {{ objLikes.count }}
+  <button id="btnLikes" (click)="onAddLikes()">Add</button> 
+ {{ iLike + objLikes.count }}
   <img *ngFor="let r of objLikes.data; let i=index" [src]="r.url" width="30px" height="30px" title="{{ r.name }}" />
 <br>
 </div>

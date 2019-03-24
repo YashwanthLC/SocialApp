@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {FormsModule} from '@angular/forms'
+import { FormsModule } from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,6 +20,7 @@ import { UserComponent } from './user/user.component';
 import { SigninComponent } from './user/signin/signin.component';
 import { SignupComponent } from './user/signup/signup.component';
 import { PostComponent } from './post/post.component';
+import { PostCardService } from './_services/postcardservice';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,7 @@ import { PostComponent } from './post/post.component';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [PostCardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

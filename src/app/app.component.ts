@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'FaceBlog';
   myOutput = "";
-
+  navVal = "Signin";
   objDataMain : Object = [
     {
       "_id": "5c5e74845eebbda0d1f18837",
@@ -46,5 +46,16 @@ export class AppComponent {
   {
     console.log(ev + " by Muthu");
     this.myOutput = ev + " by Muthu";
+  }
+  CallNav(argVal)
+  {
+    if(argVal=="signin")
+    {
+      this.navVal = "Signin";
+    }
+    else if(argVal == "signup")
+    {
+      this.navVal = "Signup";
+    }
   }
 }

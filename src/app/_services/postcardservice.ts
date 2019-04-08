@@ -6,6 +6,7 @@ export class PostCardService {
             "profilepic": "http://localhost:4200/assets/images/4.jpg",
             "date": "2017-02-09 01:37:59",
             "like": {
+                "Ind" : "True",
                 "count": 350,
                 "data": [
                     {

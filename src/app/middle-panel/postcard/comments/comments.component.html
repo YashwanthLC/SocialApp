@@ -1,3 +1,8 @@
+<br>
+  Add Comment:
+   <input #newcomm type="text"> <button id="CommButton" (click)='onAddComments(newcomm.value)'>Add</button>
+  <br>
+
 <div *ngFor="let r of objComments; let i=index">
   <a>Comments: </a>
   {{ r.txtComment }}<br>
@@ -6,4 +11,5 @@
     <a>Sub Comments: </a>
     {{ m.txtComment }}
   </div>
+ 
 </div>
